@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg mt-2">
+        <div class="container-fluid">
+          <img src="./img/Logo.svg" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-flex flex-row-reverse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active mx-2"
+                  aria-current="page"
+                  href="#"
+                  style="color: #7a007a"
+                  >888-515-1595</a
+                >
+              </li>
+              <li class="nav-item">
+                <button
+                  type="button"
+                  class="btn rounded-pill border border-2 mx-2"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                  >
+                    <path
+                      d="M18.317 8.99102V5.65768C18.317 2.99935 16.9837 1.66602 14.3253 1.66602H8.99199C7.33366 1.66602 6.20033 2.18268 5.57533 3.21602C5.42533 3.46602 5.62533 3.75768 5.91699 3.75768L10.992 3.74935C14.3253 3.74935 16.2337 5.65768 16.2337 8.99102L16.2253 12.0743C16.2253 12.366 16.517 12.566 16.767 12.416C17.8003 11.791 18.317 10.6577 18.317 8.99102Z"
+                      fill="#7A007A"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M5.65866 4.99935H10.992C13.6503 4.99935 14.9837 6.33268 14.9837 8.99102V12.3243C14.9837 12.541 14.9753 12.7493 14.9503 12.9493C14.7587 15.1993 13.4337 16.316 10.992 16.316H10.6587C10.4503 16.316 10.2503 16.416 10.1253 16.5827L9.12533 17.916C8.68366 18.5077 7.96699 18.5077 7.52533 17.916L6.52533 16.5827C6.41699 16.441 6.17533 16.316 5.99199 16.316H5.65866C3.00033 16.316 1.66699 15.6577 1.66699 12.3243V8.99102C1.66699 6.54935 2.79199 5.22435 5.03366 5.03268C5.23366 5.00768 5.44199 4.99935 5.65866 4.99935ZM4.58366 10.8327C4.58366 11.291 4.95033 11.666 5.41699 11.666C5.87533 11.666 6.25033 11.291 6.25033 10.8327C6.25033 10.3743 5.87533 9.99935 5.41699 9.99935C4.95866 9.99935 4.58366 10.3743 4.58366 10.8327ZM7.49199 10.8327C7.49199 11.291 7.85866 11.666 8.32533 11.666C8.79199 11.666 9.15866 11.291 9.15866 10.8327C9.15866 10.3743 8.78366 9.99935 8.32533 9.99935C7.86699 9.99935 7.49199 10.3743 7.49199 10.8327ZM10.4087 10.8327C10.4087 11.291 10.7753 11.666 11.242 11.666C11.7003 11.666 12.0753 11.291 12.0753 10.8327C12.0753 10.3743 11.7003 9.99935 11.242 9.99935C10.7837 9.99935 10.4087 10.3743 10.4087 10.8327Z"
+                      fill="#7A007A"
+                    />
+                  </svg>
+                  <span>Text</span>
+                </button>
+              </li>
+              <li class="nav-item">
+                <button
+                  type="button"
+                  class="btn rounded-pill border border-2"
+                  style="color: white; background-color: #7a007a"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                  >
+                    <path
+                      d="M7.66699 13.9993L9.20866 12.4577C9.54199 12.1243 9.53366 11.591 9.20033 11.266C9.15866 11.2243 9.11491 11.1827 9.07116 11.141C9.02741 11.0993 8.98366 11.0577 8.94199 11.016C8.50866 10.5743 8.10866 10.1327 7.73366 9.69935C7.36699 9.26602 7.10866 8.90768 6.95866 8.63268C6.94964 8.60561 6.93817 8.57855 6.92559 8.54883C6.91492 8.52366 6.90346 8.49659 6.89199 8.46602C6.87533 8.39935 6.86699 8.34102 6.86699 8.27435C6.86699 8.14102 6.90866 8.03268 7.00033 7.94102L7.63366 7.28268C7.83366 7.08268 7.99199 6.88268 8.10033 6.69102C8.21699 6.49935 8.27533 6.29935 8.27533 6.09935C8.27533 5.94102 8.23366 5.76602 8.15866 5.59102C8.08366 5.40768 7.97533 5.21602 7.82533 5.00768L5.89199 2.28268C5.74199 2.06602 5.55033 1.91602 5.33366 1.81602C5.12533 1.71602 4.89199 1.66602 4.65866 1.66602C4.04199 1.66602 3.45866 1.92435 2.92533 2.44935C2.48366 2.86602 2.16699 3.33268 1.96699 3.84102C1.76699 4.34102 1.66699 4.88268 1.66699 5.44935C1.66699 6.31602 1.86699 7.22435 2.25866 8.17435C2.65866 9.11602 3.20866 10.066 3.89199 11.016C4.58366 11.966 5.35866 12.8743 6.21699 13.741C6.26283 13.7868 6.30866 13.8306 6.35449 13.8743C6.40033 13.9181 6.44616 13.9618 6.49199 14.0077C6.82533 14.3243 7.34199 14.3243 7.66699 13.9993Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M18.1833 15.9827C18.2667 15.7494 18.3083 15.5077 18.3083 15.2744C18.3083 15.041 18.2583 14.8327 18.175 14.6244C18.0833 14.416 17.9333 14.241 17.7167 14.091L14.9583 12.1327C14.75 11.991 14.5583 11.8827 14.375 11.8077C14.1917 11.7327 14.025 11.6994 13.8667 11.6994C13.6583 11.6994 13.4667 11.7577 13.275 11.8744C13.0833 11.9744 12.8833 12.1327 12.675 12.341L12.0417 12.966C11.95 13.0577 11.8417 13.1077 11.7 13.1077C11.625 13.1077 11.5583 13.0994 11.4917 13.0744C11.4649 13.0629 11.4399 13.0514 11.4167 13.0408C11.3892 13.0282 11.3642 13.0167 11.3417 13.0077C11.1667 12.916 10.9583 12.7827 10.725 12.6077L8 15.3327C8.30833 15.591 8.63333 15.8327 8.95833 16.0744C9.90833 16.766 10.8667 17.316 11.825 17.7244C12.7833 18.1327 13.6917 18.3327 14.5417 18.3327C15.1167 18.3327 15.65 18.2244 16.1417 18.0244C16.1458 18.0244 16.15 18.0223 16.1542 18.0202C16.1583 18.0181 16.1625 18.016 16.1667 18.016C16.675 17.8077 17.125 17.4827 17.5333 17.0327C17.775 16.766 17.9583 16.4827 18.1 16.1827C18.1333 16.116 18.1583 16.0494 18.1833 15.9827Z"
+                      fill="white"
+                    />
+                  </svg>
+                  <span>Call now</span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="row" style="height: calc(100% - 56px)">
+        <div class="col-md-8 col-sm-12 p-0">
+          <div class="card custom-card">
+            <div
+              class="card-body ps-5 d-flex flex-column justify-content-between"
+            >
+              <div class="d-flex" style="align-items: center">
+                <div style="color: #7a007a">1/16</div>
+                <div class="progress" style="height: 10px; margin-left: 4%">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-label="Example with label"
+                    style="width: 10%; background-color: #7a007a"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="glass-card">
+                <h3>Let’s get to know you better!</h3>
+
+                <div class="row">
+                  <form>
+                    <div class="row">
+                      <div class="col">
+                        <label for="inputEmail" class="first"
+                          >First and last name*</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Aaron Testard"
+                        />
+                      </div>
+                      <div class="col">
+                        <label for="inputOrganization / Practice name*"
+                          >Organization / Practice name*</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Your organization / practice"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="row mt-3">
+                      <div class="col">
+                        <label for="input admin email" class="first"
+                          >Admin email*</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="aarontestard@gmail.com"
+                        />
+                      </div>
+                      <div class="col">
+                        <label for="input Intake email"
+                          >Intake email address</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="aarontestard@gmail.com"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="row mt-3">
+                      <div class="col">
+                        <label for="inputphone number" class="first"
+                          >Phone number</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="(510) 239-5686"
+                        />
+                      </div>
+                      <div class="col">
+                        <label for="inputNPI number"
+                          >NPI number <img src="./img/Info.png"
+                        /></label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="0000000"
+                        />
+                      </div>
+                    </div>
+                    <div class="form-group mt-5">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="gridCheck"
+                        />
+                        <label class="form-check-label" for="gridCheck">
+                          I agree to receive text messages to this phone
+                        </label>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="Continue">
+                <button class="rounded-button">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                  >
+                    <path
+                      d="M7.53353 15.4996C7.65853 15.6246 7.81686 15.6829 7.97519 15.6829C8.13353 15.6829 8.3002 15.6246 8.41686 15.4996C8.65853 15.2579 8.65853 14.8579 8.41686 14.6163L4.4251 10.6245H17.0835C17.4252 10.6245 17.7085 10.3412 17.7085 9.99951C17.7085 9.65785 17.4252 9.37451 17.0835 9.37451H4.42529L8.41686 5.38294C8.65853 5.14128 8.65853 4.74128 8.41686 4.49961C8.17519 4.25794 7.7752 4.25794 7.53353 4.49961L2.4752 9.55794C2.23353 9.79961 2.23353 10.1996 2.4752 10.4413L7.53353 15.4996Z"
+                      fill="#7A007A"
+                    />
+                  </svg>
+                </button>
+                <a
+                  href="location.html"
+                  type="button"
+                  class="custom-button text-decoration-none"
+                  >Continue<svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="27"
+                    viewBox="0 0 27 27"
+                    fill="none"
+                  >
+                    <path
+                      d="M15.9697 20.8165C16.1319 20.9788 16.3374 21.0545 16.5429 21.0545C16.7484 21.0545 16.9539 20.9788 17.1161 20.8165L23.6812 14.2515C23.9949 13.9378 23.9949 13.4187 23.6812 13.105L17.1161 6.53993C16.8025 6.22627 16.2833 6.22627 15.9697 6.53993C15.656 6.85358 15.656 7.37273 15.9697 7.68638L21.1502 12.8669H4.72133C4.27789 12.8669 3.91016 13.2347 3.91016 13.6781C3.91016 14.1215 4.27789 14.4893 4.72133 14.4893H21.1505L15.9697 19.6701C15.656 19.9837 15.656 20.5029 15.9697 20.8165Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-none d-sm-block p-0">
+          <div>
+            <img
+              src="./img/pexels-ketut-subiyanto-4474031.png"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
